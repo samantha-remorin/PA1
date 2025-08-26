@@ -1,8 +1,60 @@
-# PA1
-Programming Assignment 1 - Introduction to Python 
+# Programming Assignment 1
+## Introduction to Python
+
+### Description
+The main goal of these set of programs is to identify the basic codes and functions in Python programming and to be able to apply the different codes and functions in creating a python program.
+
+###  **Problems**
 
 
-<img width="1484" height="605" alt="image" src="https://github.com/user-attachments/assets/14d9bf27-76c4-4207-a376-fcb1aaf4a538" />
-<img width="1290" height="733" alt="image" src="https://github.com/user-attachments/assets/d3b58f87-2814-424a-8d09-7d8a9f72262b" />
-<img width="1318" height="392" alt="image" src="https://github.com/user-attachments/assets/14b67d53-20f4-43cd-8ef6-362714a3f9f0" />
 
+### NO. 1 Alphabet Soup Problem
+This program creates a function that takes a string and returns a string with its letters in alphabetical order.
+
+**Sample Output:**
+
+- Enter a word: hello
+
+- ehllo
+
+**Implementation:**
+-  Used Python's built-in `sorted()` function to sort characters.  
+- Applied the `join()` method to combine them back into a string.  
+- Requested user input with `input()`
+---
+
+### NO.2 Emoticon Problem
+This program creates a function that changes specific words into emoticons. 
+
+**Sample Output:**
+- Enter a Sentece: I am Sad
+
+- I am :((
+
+**Implementation:**
+- Used conditional statement - `else` and `elif` statement
+- Used `string.replace()`
+- Smile → :)
+- Grin →  :D
+- Sad →  :((
+- Mad → >:(
+
+---
+
+
+### NO.3 Unpacking List Problem
+This program unpacks the list into three variables, being first, middle, and last, with middle being everything in between the first and last element. Then it will print all three variables. 
+
+**Sample Output:**
+
+- First: 1
+
+- Middle: [2, 3, 4, 5]
+
+- Last: 6
+
+
+**Implementation:**
+- Used list that stores [1,2,3,4,5,6]
+- Used indexing to unpack the first and last element
+- Used slicing for the middle variable 
