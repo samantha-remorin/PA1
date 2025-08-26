@@ -19,7 +19,7 @@ This program creates a function that takes a string and returns a string with it
 
 **Implementation:**
 -  Used Python's built-in `sorted()` function to sort characters.  
-- Applied the `join()` method to combine them back into a string.  
+- Applied the `' '.join()` method to joined the letters with no spaces 
 - Requested user input with `input()`
 ---
 
@@ -34,10 +34,12 @@ This program creates a function that changes specific words into emoticons.
 **Implementation:**
 - Used conditional statement - `else` and `elif` statement
 - Used `string.replace()`
-- Smile → :)
-- Grin →  :D
-- Sad →  :((
-- Mad → >:(
+- Requested user input with `input()`
+- If condition is satisfied, it will change the word with its corresponding emoticon:
+  - Smile → :)
+  - Grin →  :D
+  - Sad →  :((
+  - Mad → >:(
 
 ---
 
