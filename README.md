@@ -28,7 +28,7 @@ This program creates a function that takes a string and returns a string with it
 -  `' '.join()` → Joins the letters back into a single word without spaces. 
 
 **2. User Input**
--  `word = input("Enter a word: ")` → let the user type any word that they want to arrange alphabetically.
+-  `word = input("Enter a word: ")` → Let the user type any word that they want to arrange alphabetically.
 
 **3. Output**
 -  `print(alphabetSoup(word))` → It will call the function `alphabetSoup(word)` and print the sorted output.
@@ -43,14 +43,14 @@ This program creates a function that changes specific words into emoticons:
   - Mad → >:(
 
 **Sample Output:**
-- Enter a Sentece: I am Sad
+- Enter a Sentence: I am Sad
 
 - I am :((
 
 **Implementation:**
 
 **1. Function Definition**
-- `emotify(string)` → It is a function that converts certain words to emoticons
+- `emotify(string)` → It is a function that converts certain words to emoticons.
 - ```
   if "Smile" in string or "smile" in string:
         # Replace the word with its corresponding emoticon
